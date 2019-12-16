@@ -1,20 +1,14 @@
 .gearDate {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 10px; font-weight: 700; background-color: rgba(0, 0, 0, 0.5);display: block;position: absolute;position: fixed;top: 0;left: 0;width: 100%;height: 100%;z-index: 9900;overflow: hidden;-webkit-animation-fill-mode: both;animation-fill-mode: both;-webkit-transform: translateZ(0);}
 .date_ctrl {vertical-align: middle;background-color: #fff;box-shadow: 0 0 2px rgba(0,0,0,.4);color: #363837;margin: 0;
 	height: auto;width: 100%;max-width: 600px;position: absolute;left: 0;right:0;bottom: 0;z-index: 9902;overflow: hidden;margin:0 auto;user-select: none;-ms-user-select: none;}
-.bounceInUp{animation: bounceInUp 1s .2s ease both;-webkit-animation: bounceInUp 1s .2s ease both;-ms-animation: bounceInUp 1s .2s ease both;-moz-animation: bounceInUp 1s .2s ease both}
+.bounceInUp{animation: bounceInUp .1s .1s ease both;-webkit-animation: bounceInUp .1s .1s ease both;-ms-animation: bounceInUp .1s .1s ease both;-moz-animation: bounceInUp .1s .1s ease both}
 @-webkit-keyframes bounceInUp {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(2000px)
 	}
-	60% {
-		opacity: 1;
-		-webkit-transform: translateY(-30px)
-	}
-	80% {
-		-webkit-transform: translateY(10px)
-	}
 	100% {
+		opacity: 1;
 		-webkit-transform: translateY(0)
 	}
 }
@@ -23,14 +17,8 @@
 		opacity: 0;
 		-webkit-transform: translateY(2000px)
 	}
-	60% {
-		opacity: 1;
-		-webkit-transform: translateY(-30px)
-	}
-	80% {
-		-webkit-transform: translateY(10px)
-	}
 	100% {
+		opacity: 1;
 		-webkit-transform: translateY(0)
 	}
 }
@@ -39,14 +27,8 @@
 		opacity: 0;
 		-webkit-transform: translateY(2000px)
 	}
-	60% {
-		opacity: 1;
-		-webkit-transform: translateY(-30px)
-	}
-	80% {
-		-webkit-transform: translateY(10px)
-	}
 	100% {
+		opacity: 1;
 		-webkit-transform: translateY(0)
 	}
 	
@@ -56,14 +38,8 @@
 		opacity: 0;
 		-webkit-transform: translateY(2000px)
 	}
-	60% {
-		opacity: 1;
-		-webkit-transform: translateY(-30px)
-	}
-	80% {
-		-webkit-transform: translateY(10px)
-	}
 	100% {
+		opacity: 1;
 		-webkit-transform: translateY(0)
 	}
 }
